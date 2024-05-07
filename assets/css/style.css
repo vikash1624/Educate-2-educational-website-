@@ -1,0 +1,830 @@
+/*================================================================= COMMON-SECTION ===================================================== */
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.common-icon-color {
+  color: #116e63; /*font-awsome-icon*/
+}
+
+.common-span-yellow {
+  color: #f2a227;
+}
+.common-para-white {
+  color: white; /*paragraph white*/
+}
+
+.common-heading-blue {
+  color: #0e2a46; /*section-heading-blue*/
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.common-section-para-blue {
+  /*small heading*/
+  color: #267b70;
+  padding-top: 12px;
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.common-para-grey {
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.common-blue-btn {
+  background-color: #116e63 !important;
+  width: 230px !important;
+  height: 60px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: white !important;
+}
+.common-grey {
+  color: #586461;
+}
+
+/*============================================================ SECTION-1-TOP =================================================== */
+
+.section-top {
+  background-color: white;
+  padding: 15px;
+}
+
+.top-social-site .fa-brands {
+  color: black;
+  padding-left: 10px;
+}
+
+/* ============================================================ SECTION-2-HEADER=================================================== */
+
+/* NAVBAR */
+
+.header {
+  height: 130vh;
+  background-color: #116e63;
+}
+.nav-link {
+  color: white !important;
+  padding-left: 20px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.nav-btn {
+  width: 177px;
+  height: 60px;
+  background-color: white !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.nav-cart {
+  padding-right: 40px;
+  color: white;
+}
+
+/* HERO-SECTION */
+
+.hero-box {
+  margin-top: 50px;
+}
+
+.header-h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+}
+.hero-para {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.hero-btn {
+  width: 223px !important;
+  height: 60px !important;
+  background-color: white !important;
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.hero-para-happy {
+  padding-left: 20px;
+  font-size: 18px;
+}
+.hero-img-left {
+  height: 55px !important;
+}
+
+.hero-img-middle {
+  position: absolute;
+  top: 370px;
+  left: 550px;
+}
+
+.hero-img-right {
+  height: 600px !important;
+  position: absolute;
+  right: 50px;
+}
+
+.hero-img-animation-1 {
+  position: absolute;
+  right: 70px;
+  top: 150px;
+  opacity: 20%;
+  animation: move2 1s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes move2 {
+  0% {
+    top: 20%;
+  }
+
+  100% {
+    bottom: 10%;
+  }
+}
+
+.hero-img-animation-2 {
+  position: absolute;
+  left: 60px;
+  opacity: 20%;
+
+  animation: move 3s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes move {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 80px;
+  }
+}
+/* ============================================================ SECTION-3-ABOUT US=================================================== */
+.section-3-about {
+  position: relative;
+  height: 850px;
+}
+
+.left-about-img-girl {
+  width: 470px;
+  padding-top: 80px;
+  z-index: 1;
+}
+.about-ring-img {
+  position: relative;
+  left: 340px;
+  top: 150px;
+}
+
+.about-dotted-img {
+  position: absolute;
+  top: 430px;
+  left: 20px;
+  z-index: -2;
+}
+
+.about-right-box {
+  padding-top: 120px;
+}
+
+.triangle-about {
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}
+
+.about-misson {
+  color: #0e2a46;
+  font-weight: 700;
+  font-size: 18px;
+}
+.about-misson-inner-text {
+  color: #333931;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.about-btn {
+  background-color: #f2a227 !important;
+  width: 230px !important;
+  height: 60px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.about-thread-img {
+  position: absolute;
+  right: 0px;
+  top: 140px;
+  z-index: -5;
+}
+
+/* ====================================================== SECTION-4- TOP POPULAR COURSE============================================== */
+
+.section-4-course {
+  background: url(/assets/images/course-bg.webp);
+  height: 980px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.course-card-border {
+  border: none !important;
+}
+
+.course-top-box {
+  padding-top: 100px;
+}
+
+.course-body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.course-development {
+  background-color: #116e63;
+  width: 120px;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 10px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.course-review {
+  color: #f2a227;
+  padding-top: 20px;
+}
+
+.course-heading a {
+  color: #0e2a46 !important;
+}
+.course-heading {
+  padding-top: 10px;
+}
+.course-time-lesson {
+  font-size: 12px;
+  justify-content: space-between;
+  color: #586461;
+}
+
+.course-line {
+  padding: 0;
+  margin: 0;
+}
+
+.course-teacher-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+}
+.course-teacher {
+  color: #586461;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.course-teacher span:nth-of-type(1) {
+  color: #0e2a46;
+  font-weight: 700;
+}
+.course-teacher span:nth-of-type(2) {
+  color: #f2a227;
+  font-weight: 700;
+}
+
+.course-price span:nth-of-type(1) {
+  text-decoration: line-through;
+  font-size: 25px;
+  color: #586461;
+  font-weight: 600;
+}
+.course-price span:nth-of-type(2) {
+  font-size: 25px;
+  color: #0e2a46;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.course-cart a {
+  color: #586461 !important;
+  font-weight: 500;
+  position: relative;
+  top: 10px;
+}
+.course-development.tec {
+  padding-left: 20px !important;
+}
+.course-development.manag {
+  padding-left: 12px !important;
+}
+
+/* ===================================================== SECTION-5- TOP POPULAR COURSE 2ND ============================================== */
+
+.section-5-course-2 {
+  height: 870px;
+}
+
+.percetage-box {
+  width: 510px;
+  margin-top: 35px;
+}
+
+.percetage-text {
+  color: #0e2a46;
+  font-weight: 700;
+  font-size: 18px;
+}
+.percetage-number-90 {
+  background-color: #116e63;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 2px 6px 0px 6px;
+  margin-left: 280px;
+}
+
+.percetage-number-82 {
+  background-color: #116e63;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 2px 6px 0px 6px;
+  margin-left: 270px;
+}
+.percetage-number-65 {
+  background-color: #116e63;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 2px 6px 0px 6px;
+  margin-left: 230px;
+}
+
+.percetage-number-75 {
+  background-color: #116e63;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 2px 6px 0px 6px;
+  margin-left: 190px;
+}
+
+.progress-bar.length-1 {
+  background-color: #116e63 !important;
+  width: 90% !important;
+}
+
+.length-2 {
+  background-color: #116e63 !important;
+  width: 82% !important;
+}
+
+.length-3 {
+  background-color: #116e63 !important;
+  width: 65% !important;
+}
+
+.length-4 {
+  background-color: #116e63 !important;
+  width: 75% !important;
+}
+
+.progress {
+  height: 10px !important;
+  position: relative;
+  bottom: 5px !important;
+}
+
+.sec-5-right-box {
+  position: relative;
+}
+
+.sec-5-right-img-1 {
+  position: absolute;
+  z-index: 22;
+  width: 500px;
+  left: 80px;
+  top: 150px;
+}
+.sec-5-right-img-2 {
+  position: absolute;
+  z-index: 21;
+  right: -50px;
+  top: 70px;
+}
+.sec-5-right-img-3 {
+  position: absolute;
+  z-index: 20;
+  right: -100px;
+  top: -60px;
+  z-index: -11;
+}
+.sec-5-btn {
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 80px !important;
+  font-size: 25px !important;
+  color: #f2a227 !important;
+  background-color: white !important;
+  position: absolute;
+  top: 400px;
+  left: 280px;
+  z-index: 29;
+}
+
+/* ===================================================== SECTION-6- HIGHER STUDY FEATURE ==============================================  */
+
+.section-6-higher-study {
+  height: 850px;
+  background: linear-gradient(#bdbbbb41, #c9c9c962),
+    url("/assets/images/feature-bg.webp");
+}
+
+.sec-6-top-box {
+  padding-top: 120px;
+}
+
+.sec-5-main-box {
+  margin-top: 80px;
+}
+
+.sec-6-box {
+  height: 400px;
+  background-color: white;
+}
+
+.box-round {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  margin: auto;
+
+  position: relative;
+  border: dotted 1px #0e2a46;
+}
+
+.sec-6-box-logo {
+  font-size: 50px;
+  background-color: #116e63;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+
+.sec-6-heading-box {
+  color: #0e2a46;
+  font-weight: 700;
+}
+
+.sec-6-para {
+  font-size: 18px;
+}
+
+.sec-6-btn {
+  background-color: #116e63 !important;
+  font-size: 20px !important;
+  width: 190px !important;
+  height: 50px !important;
+  margin-top: 10px;
+  border: none !important;
+}
+
+/* ===================================================== SECTION-7- Join Our New Session ================================================= */
+
+.section-7 {
+  height: 400px;
+  background: linear-gradient(#203d57ee, #203d57cc),
+    url("/assets/images/bg-1-1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-7-img-1 {
+  position: relative;
+  left: -30px;
+  top: 50px;
+}
+
+.sec-7-para {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 55px;
+}
+
+.sec-7-enroll {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.sec-7-btn {
+  height: 60px !important;
+  width: 200px !important;
+  background-color: #116e63 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  margin-top: 20px;
+}
+
+.sec-7-img-2 {
+  position: relative;
+  top: 240px;
+}
+
+.sec-7-img-3 {
+  position: absolute;
+  right: 0px;
+}
+
+.sec-7-btn-2 {
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 80px !important;
+  background-color: white !important;
+  color: #116e63 !important;
+  font-size: 24px !important;
+}
+
+.watch-main-box {
+  margin-top: 180px;
+}
+
+.sec-7-watch-now {
+  color: white !important;
+  font-size: 20px;
+}
+.sec-7-img-4 {
+  position: absolute;
+  right: 200px;
+}
+
+/* 
+===================================================== SECTION-8- TOP POPULAR COURSE ================================================= */
+
+.section-8 {
+  height: 700px;
+}
+
+.sec-8-img-top-1 {
+}
+.sec-8-img-top-2 {
+}
+
+.sec-8-left-box {
+  height: 340px;
+  position: relative;
+  border-radius: 10px;
+
+  /* background-color: #0e4b44 ; */
+  background-image:  url("/assets/images/course-bg.webp"),#0e4b44 ;
+  
+}
+
+.sec-8-medical {
+  color: white;
+  font-weight: 900;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.sec-8-para {
+  color: white;
+
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.sec-8-btn {
+  height: 60px !important;
+  width: 180px !important;
+  background-color: #f2a227 !important;
+  font-weight: 600 !important;
+  margin-left: 20px;
+  font-size: 18px !important;
+  margin-top: 20px;
+}
+
+.sec-8-img-left {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+/* ===================================================== SECTION-9- Testimonial ================================================= */
+
+.section-9 {
+  height: 800px;
+  background: url(/assets/images/bg-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sec-9-box {
+  height: 400px;
+  width: 650px;
+  background: url(/assets/images/bg-3.webp);
+  border-radius: 10px;
+  padding: 50px;
+  position: absolute;
+  top: 250px;
+  right: 0px;
+}
+
+.sec-9-para {
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  line-height: 36px;
+  padding-left: 20px;
+}
+
+.sec-9-img-box-avtr {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.sec-9-avtr-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.name-9 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.post-9 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sec-9-btn-box {
+  position: relative;
+  bottom: 50px;
+}
+
+.sec-9-img-traingle {
+  position: absolute;
+  top: 140px;
+  right: -30px;
+  z-index: -1;
+}
+
+.sec-9-maine-box-right {
+  position: relative;
+  z-index: 10;
+}
+
+/* ===================================================== SECTION-10- EXPLORE EVENTS =================================================  */
+
+.section-10 {
+  height: 900px;
+}
+
+.sec-10-left-img {
+  position: relative;
+  top: 200px;
+  left: -50px;
+}
+
+.event-top-box {
+  padding-top: 230px;
+}
+
+.section-para-blue {
+  color: #0e2a46;
+  font-weight: 700;
+  font-size: 19px;
+  padding-top: 10px;
+}
+
+.section-10-grey {
+  line-height: 35px;
+}
+
+.sec-10-btn {
+  height: 60px !important;
+  width: 230px !important;
+  background-color: #116e63 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  margin-top: 20px;
+}
+
+.sec-10-right-box {
+  position: relative;
+}
+
+.sec-10right-img-2 {
+  position: absolute;
+  right: -60px;
+  top: 120px;
+}
+
+.sec-10right-img-1 {
+  position: absolute;
+  top: 135px;
+  left: 70px;
+}
+
+/* ===================================================== SECTION-11- TEACHER ================================================= */
+
+.section-11 {
+  height: 800px;
+  background: url(/assets/images/teacher-bg.webp);
+  position: relative;
+}
+
+.sec-11-top {
+  padding-top: 100px;
+}
+
+.teacher-p-top {
+  font-weight: 600;
+  padding-top: 12px;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.teacher-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.teacher-box {
+  height: 420px;
+  width: 260px;
+  background-color: #0e2a46;
+  border-radius: 5px;
+}
+.teacher-img-11 {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.s-11teacher-name a {
+  color: white !important;
+}
+
+.s-11teacher-name {
+  padding-top: 30px;
+}
+
+.teacher-post-s11 {
+  color: #f2a227;
+  font-weight: 600;
+}
+
+.socailsite-box-11 {
+  height: 130px;
+  width: 40px;
+  background-color: white;
+  position: absolute;
+  top: 400px;
+  left: 230px;
+}
+
+.s-11-insta {
+  padding: 0;
+  margin: 0;
+  padding-top: px;
+}
+
+.s-11-insta a {
+  font-size: 18px;
+  color: #f2a227 !important;
+
+}
